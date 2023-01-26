@@ -14,7 +14,7 @@ This extension scrapes amazon products reviews.It scrapes:
     1. It can scrapes on the city base
     2. It can scrapes on date base
     3. It can scrapes on rating base
-![](amazon scraper/amazon.png)
+![](Amazon Scraper/amazon.png)
 ## Steps to load extension on Google Chrome
 
 Here are the steps to load an unpacked Google Chrome extension in markdown style:
