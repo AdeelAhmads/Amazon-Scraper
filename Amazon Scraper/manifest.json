@@ -1,0 +1,23 @@
+{
+  "name": "Amazon Reviews Scraper",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Scrapes amazon's product reviews",
+  "author": "Adeel Ahmad",
+  "action": {
+    "default_popup": "./popup.html",
+    "css": "style.css"
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["script.js", "papaparse.js"],
+      "matches": ["https://www.amazon.com/*/product-reviews/*"]
+    }
+  ],
+
+  "permissions": ["tabs"],
+  "host_permissions": ["https://www.amazon.com/*/product-reviews/*"]
+}
